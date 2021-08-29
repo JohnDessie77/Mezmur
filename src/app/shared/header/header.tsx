@@ -26,7 +26,7 @@ const Header = (props: any) => {
               (props.transparent ? "text-white" : "text-gray-800") +
               " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             }
-            href="#"
+            href="https://mezmurplus.netlify.app/"
           >
             Mezmur+
           </a>
@@ -59,7 +59,7 @@ const Header = (props: any) => {
                     : "text-gray-800 hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
-                href="#"
+                href="https://mezmurplus.netlify.app/"
               >
                 <i
                   className={
