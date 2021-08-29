@@ -1,0 +1,31 @@
+:root {
+  --primary-color-50: #ecfdf5;
+  --primary-color-100: #d1fae5;
+  --primary-color-200: #a7f3d0;
+  --primary-color-300: #6ee7b7;
+  --primary-color-400: #34d399;
+  --primary-color-500: #10b981;
+  --primary-color-600: #059669;
+  --primary-color-700: #047857;
+  --primary-color-800: #065f46;
+  --primary-color-900: #064e3b;
+}
+
+body {
+  background: #e9eff8;
+  font-family: "Sofia Pro";
+}
+
+body *::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  transition: 0.3s background;
+}
+
+body *::-webkit-scrollbar-thumb {
+  background: #ced4da;
+}
+
+body *:hover::-webkit-scrollbar-thumb {
+  background: adb5bd;
+}
